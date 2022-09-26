@@ -1,7 +1,5 @@
 package TestComponent;
 
-import static org.testng.Assert.assertTrue;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,6 +14,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -37,21 +37,28 @@ public class Testbase {
 
 		FileInputStream fil = new FileInputStream(System.getProperty("user.dir")
 				+ "\\src\\main\\java\\AutomationPracticeFramework\\com\\Ecommerce_framework\\resources\\resource.properties");
+
 		prop.load(fil);
 		String browsername = prop.getProperty("browser");
 
 		if (browsername.equalsIgnoreCase("chrome")) {
-			System.getProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			// System.getProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 
-			//WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().setup();
 
 			driver = new ChromeDriver();
-		}
-
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().window().maximize();
-		return driver;
+		} else if (browsername.equalsIgnoreCase("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		} else if (browsername.equalsIgnoreCase("edge")) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
 	}
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.manage().window().maximize();
+			return driver;
+		}
+	
 
 	public List<HashMap<String, String>> getDataJsonToMap(String filepath) throws IOException {
 		// read json to string
@@ -88,8 +95,8 @@ public class Testbase {
 		driver.close();
 	}
 
-	public void onTeststart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+//	public void onTeststart(ITestResult result) {
+//		// TODO Auto-generated method stub
+//
+//	}
 }

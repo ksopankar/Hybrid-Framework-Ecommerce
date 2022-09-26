@@ -1,60 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+<testng-results skipped="1" failed="2" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="524" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
+  <suite name="Default suite" duration-ms="31139" started-at="2022-09-26T17:23:30 IST" finished-at="2022-09-26T17:24:01 IST">
     <groups>
       <group name="purchase">
         <method signature="SubmitorderTest.SubmitOrderTest(java.util.HashMap)[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="SubmitOrderTest" class="AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test name="Default test" duration-ms="524" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
+    <test name="Default test" duration-ms="31139" started-at="2022-09-26T17:23:30 IST" finished-at="2022-09-26T17:24:01 IST">
       <class name="AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest">
-        <test-method status="FAIL" signature="LouchApplication()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="LouchApplication" is-config="true" duration-ms="5" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.InitializeDriver(Testbase.java:51)
-at TestComponent.Testbase.LouchApplication(Testbase.java:80)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="LouchApplication()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="LouchApplication" is-config="true" duration-ms="11391" started-at="2022-09-26T17:23:30 IST" finished-at="2022-09-26T17:23:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LouchApplication -->
-        <test-method status="SKIP" signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="SubmitOrderTest" duration-ms="0" started-at="2022-09-26T13:03:12 IST" data-provider="getdata" finished-at="2022-09-26T13:03:12 IST">
+        <test-method status="FAIL" signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="SubmitOrderTest" duration-ms="10472" started-at="2022-09-26T17:23:42 IST" data-provider="getdata" finished-at="2022-09-26T17:23:52 IST">
           <params>
             <param index="0">
               <value>
@@ -65,18 +25,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.InitializeDriver(Testbase.java:51)
-at TestComponent.Testbase.LouchApplication(Testbase.java:80)
+at AutomationPracticeFramework.com.Ecommerce_framework.Page_Object.ProductCatalog.addProductToCart(ProductCatalog.java:62)
+at AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest.SubmitOrderTest(SubmitorderTest.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
@@ -105,95 +61,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrderTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.tearDown(Testbase.java:88)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:612)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="tearDown" is-config="true" duration-ms="191" started-at="2022-09-26T17:23:52 IST" finished-at="2022-09-26T17:23:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="LouchApplication()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="LouchApplication" is-config="true" duration-ms="1" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.InitializeDriver(Testbase.java:51)
-at TestComponent.Testbase.LouchApplication(Testbase.java:80)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="LouchApplication()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="LouchApplication" is-config="true" duration-ms="8138" started-at="2022-09-26T17:23:53 IST" finished-at="2022-09-26T17:24:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LouchApplication -->
-        <test-method status="SKIP" signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="SubmitOrderTest" duration-ms="0" started-at="2022-09-26T13:03:12 IST" data-provider="getdata" finished-at="2022-09-26T13:03:12 IST">
+        <test-method status="FAIL" signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="SubmitOrderTest" duration-ms="190" started-at="2022-09-26T17:24:01 IST" data-provider="getdata" finished-at="2022-09-26T17:24:01 IST">
           <params>
             <param index="0">
               <value>
@@ -201,21 +77,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.InitializeDriver(Testbase.java:51)
-at TestComponent.Testbase.LouchApplication(Testbase.java:80)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+at AutomationPracticeFramework.com.Ecommerce_framework.Page_Object.Landing_Page.LoginApplication(Landing_Page.java:37)
+at AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest.SubmitOrderTest(SubmitorderTest.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
@@ -240,55 +122,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrderTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-09-26T13:03:12 IST" finished-at="2022-09-26T13:03:12 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TestComponent.Testbase.tearDown(Testbase.java:88)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:612)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="tearDown" is-config="true" duration-ms="93" started-at="2022-09-26T17:24:01 IST" finished-at="2022-09-26T17:24:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="OrderHistoryTest()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="OrderHistoryTest" duration-ms="0" started-at="2022-09-26T13:03:12 IST" depends-on-methods="AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest.SubmitOrderTest" finished-at="2022-09-26T13:03:12 IST">
+        <test-method status="SKIP" signature="OrderHistoryTest()[pri:0, instance:AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f]" name="OrderHistoryTest" duration-ms="1" started-at="2022-09-26T17:24:01 IST" depends-on-methods="AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest.SubmitOrderTest" finished-at="2022-09-26T17:24:01 IST">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest.OrderHistoryTest() on instance AutomationPracticeFramework.com.Ecommerce_framework.SubmitorderTest@4524411f depends on not successfully finished methods 
